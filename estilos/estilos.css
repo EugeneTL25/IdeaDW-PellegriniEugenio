@@ -1,0 +1,681 @@
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ---------- INDEX --------- */
+
+/* ---- TITULO Y MENU ---- */
+.titulo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: center; */ 
+    font-size: 60px;
+    background-image: linear-gradient(#1d3557 , #457b9d );
+    /* background-color: #1d3557; */
+    margin: 0px;
+    color: white;
+    grid-area: titulo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: menu;
+    background-color: #457b9d;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+nav {
+    /* background-color: #457b9d; */
+    /* text-align: center; */
+    /* position: relative; */
+    border-top: solid 4px rgb(114, 99, 16);
+    /* border-bottom: solid 4px rgb(114, 99, 16); */
+    
+}
+
+.menuNav li{ 
+    font-size: 20px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: inline-block; */
+    font-weight: bold;
+    color: black;
+    width: 200px;
+    height: 40px;
+    /* margin-left: 50px; */
+    /* margin-top: 10px; */   
+    list-style-type: none; 
+}
+
+.enlaceMenu {
+    text-decoration: none;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* ---- CIERRA TITULO Y MENU ---- */
+
+/*  ---- ABRE BODY INDEX ---- */
+
+    /*  --- PRIMER PARTE --- */
+
+
+/* .primerParte { */
+    /* display: inline; */
+/*     margin-left: 200px;
+    margin-top: 10px; */
+    
+.section1 {
+    background-image: linear-gradient(#457b9d , #a8dadc );
+    /* background-color: #a8dadc; */
+    border-bottom: solid 4px rgb(114, 99, 16);
+    grid-area: section1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgCoscu {
+    width: 400px;
+    height: 500px;
+
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* .imgMomo {
+    width: 350px;
+    height: 450px;
+} */
+
+.parrafoPrimer {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    /* position: absolute; */
+    /* margin-top: 120px; */
+    /* margin-left: 40px; */
+    /* text-align: center; */
+    }
+
+
+    /* --- CIERRA PRIMER PARTE ---   */
+
+    /*  --- SEGUNDA PARTE --- */
+
+.section2 {
+    background-image: linear-gradient(to bottom, #a8dadc, #457b9d );
+    /* background-color: #a8dadc; */
+    border-bottom: solid 4px rgb(114, 99, 16);
+    grid-area: section2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section2 img {
+    width: 400px;
+    height: 500p;
+
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.section2 p {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* .segundaParte {
+    display: inline-block;
+} */
+    /* margin-left: 200px; */
+
+
+/* .imgPimpe {
+    width: 400px;
+    height: 500px; */
+    /* margin-left: 950px; */
+
+
+/* .imgJoako {
+    width: 350px;
+    height: 450px;
+} */
+
+/* .parrafoSegundo */ 
+    /* display: inline-block; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px; */
+    /* position: absolute;*/
+    /* text-align: center; */
+    /* margin-top: 120px; */
+    /* margin-right: 20px; */
+
+
+    /*  --- CIERRA SEGUNDA PARTE ---  */
+
+    /*  --- TERCER PARTE ---  */
+
+/* .section3 {
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+/* .tercerParte {
+    /* display: inline-block; */
+    /* margin-left: 200px; */
+
+
+/* .imgChile {
+    width: 350px;
+    height: 450px;
+} */
+
+/* .imgCaster {
+    width: 350px;
+    height: 450px;
+} */
+
+/* .parrafoTercero {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    /* position: absolute;*/
+    /* margin-top: 120px;
+    margin-left: 60px; */
+
+
+    /* --- CIERRA TERCER PARTE ---   */
+
+/* ---- ABRE PIE DE PAGINA ----  */
+
+.piePagina {
+    background-image: linear-gradient(to bottom, #457b9d, #1d3557 );
+    /* background-color: #457b9d ; */
+    /* text-align: center; */
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagenLink{
+    width: 60px;
+    height: 60px;
+}
+
+/* .piePagina a {
+margin-left: 15px;
+} */
+
+/* ---- CIERRA PIE DE PAGINA ---- */
+
+
+/*  --------- ABRE SOBRE MI -------- */
+
+    /* --- SOBRE MI TITULO E HISTORIA ---  */
+.sobremiTitulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    /* text-align: center; */
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+    grid-area: sobremi;
+    display: flex;
+    justify-content: center;
+}
+
+.miHistoria {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #a8dadc;
+    /* text-align: center; */
+    grid-area: mihistoria;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionMihistoria {
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+    grid-area: sectHist;
+    display: flex;
+    justify-content: center;
+}
+
+.divHistoria {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoHistoria {
+    /* display: inline-block; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    /* text-align: initial;
+    position: absolute; */
+}
+
+/* .iframeTl {
+    margin-left: 700px;
+} */
+
+    /* --- CIERRA HISTORIA Y ABRE ESTUDIOS ---  */
+
+.misEstudios {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    /* text-align: center; */
+    background-color: #a8dadc;
+    grid-area: misestudios;
+    display: flex;
+    justify-content: center;
+}
+
+.divEstudios {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoEstudios {
+    /* display: inline-block; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    /* text-align: initial;
+    position: absolute;
+    margin-left: 10px; */
+}
+
+.sectionEstudios {
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+    grid-area: sectEst;
+    display: flex;
+    justify-content: center;
+
+}
+
+    /* --- CIERRA ESTUDIOS Y ABRE EXPERIENCIA ---  */
+
+/* .miExperiencia {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+.divExp {
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.textoExp {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: initial;
+}
+
+.sectionExp {
+    background-color: #a8dadc;
+} */
+
+    /*  ---- CIERRA SOBRE MI ----  */
+
+
+    /*  ---- ABRE TRABAJO ----  */
+
+
+        /* --- TITULO, SUBTITULOS E IMAGENES DE LOS TRABAJOS ---  */
+
+.miTrabajo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+.tituloStream {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+.spImage {
+    width: 550px;
+    height: 370px;
+}
+
+.sectionStream {
+    background-color: #a8dadc;
+}
+
+.divStream {
+    text-align: center;
+}
+
+.imgRetratos {
+    width: 300px;
+    height: 350px;
+}
+
+.divRetratos {
+    text-align: center;
+}
+
+.sectionRetratos {
+    background-color: #a8dadc;
+}
+
+.sectionPersonajes {
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+    /*  ---- CIERRA TRABAJO ----  */
+
+    /*  ---- ABRE BLOG ---- */
+
+        /* --- LA PAGINA BLOG ESTA REALIZADA POR LA MITAD YA QUE ESTOY EVALUANDO CAMBIAR Y PONER OTRO CONTENIDO ACA ---  */
+
+.tituloBlog {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+    text-align: center;
+    grid-area: tituloBlog;
+}
+
+.blog1 {
+    border: solid 3px black;
+    margin-top: 10px;
+    padding-bottom: 250px;
+}
+
+.blogTitulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sectionBlog {
+    background-color: #a8dadc;
+}
+
+    /*  ---- CIERRA BLOG ----  */
+
+    /*  ---- ABRE CONTACTOS ----  */
+
+        /* --- SIMILAR AL CASO BLOG, ESTOY EVALUANDO QUE INCORPORAR EN ESTA SECCION, PERO POR EL MOMENTO QUEDARIA ASI ---  */
+
+.tituloContacto {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+    text-align: center;
+}
+
+.redesSociales {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+.sectionRedes {
+    background-color: #a8dadc;
+}
+
+.iconoRedes {
+    width: 150px;
+    height: 150px;
+}
+
+.divRedes {
+    text-align: center;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+.sectionForm {
+    background-color: #a8dadc;
+    border-bottom: solid 4px rgb(114, 99, 16);
+}
+
+.formC {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.textarea {
+    width: 350px;
+    height: 150px;
+}
+
+.footerContacto {
+    background-color: #457b9d ;
+}
+
+.agradeC {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+    /*  ---- CIERRA CONTACTOS ----  */
+
+
+/*  ------ ABRE GRID INDEX------ */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0.2fr 1fr 1fr 0.3fr;
+    grid-template-areas:
+    "titulo titulo"
+    "menu menu"
+    "section1 section1"
+    "section2 section2"
+    "footer footer" ;
+    justify-content: center;
+    align-content: space-between;
+}
+
+/*  ------- CIERRA GRID INDEX-------- */
+
+/*  ------ ABRE RESPONSIVE TABLET INDEX ------ */
+
+@media screen and (max-width: 768px){
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.15fr 0.25fr 0.65fr 0.65fr  0.15fr;
+        grid-template-areas:
+        "titulo"
+        "menu"
+        "section1"
+        "section2"
+        "footer";
+        background-color: #a8dadc;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .menuNav {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .menuNav li{
+        font-size: 15px;
+    }
+
+    .section1 img {
+        width: 250px;
+        height: 325px;
+    }
+
+    .section1 p {
+        font-size: 25px;
+    }
+
+    .section2 img {
+        width: 250px;
+        height: 325px;
+    }
+
+    .section2 p {
+        font-size: 25px;
+    }
+}
+
+/*  ----- CIERRA RESPONSIVE TABLET INDEX ----- */
+
+/*  ----- ABRE RESPONSIVE CELULAR INDEX ----- */
+
+@media screen and (max-width: 500px){
+    .contenedor {
+        grid-template-rows: 0.1fr 0.3fr 0.2fr 0.3fr 0.1fr;
+        grid-template-areas:
+        "titulo"
+        "menu"
+        "section1"
+        "section2"
+        "footer" ;
+    }
+
+    .titulo {
+        font-size: 25px;
+        color: orange;
+    }
+
+    .section1 img{
+        display: none;
+    }
+
+    .section1 p {
+        color: cyan;
+    }
+
+    .section2 p{
+        display: none;
+    }
+
+    .menuNav {
+        flex-wrap: wrap;
+    }
+}
+
+/* ----- CIERRA RESPONSIVE CELULAR INDEX ----- */
+
+/*  ----- ABRE GRID SOBRE MI -----  */
+
+.contenedorSobre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0.2fr 0.1fr 0.07fr 1fr 0.07fr 1fr 0.3fr;
+    grid-template-areas:
+    "titulo titulo"
+    "menu menu"
+    "sobremi sobremi"
+    "mihistoria mihistoria"
+    "sectHist sectHist"
+    "misestudios misestudios"
+    "sectEst sectEst"
+    "footer footer" ;
+}
+
+/* ----- CIERRA GRID SOBRE MI ----- */
+
+/* ----- ABRE RESPONSIVE TABLET SOBRE MI ----- */
+
+@media screen and (max-width: 768px){
+    .contenedorSobre {
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: 0.2fr 0.15fr 0.1fr 0.65fr 0.15fr 0.65fr 0.2fr;
+        grid-template-areas:
+        "titulo titulo"
+        "menu sobremi"
+        "menu mihistoria"
+        "menu sectHist"
+        "misestudios misestudios"
+        "sectEst sectEst"
+        "footer footer" ;
+    }
+}
+
+/*  ---- CIERRA RESPONSIVE TABLET SOBRE MI ------ */
+
+/* ----- ABRE RESPONSIVE CELULAR SOBRE MI ----- */
+
+@media screen and (max-width:500px) {
+    
+    .sobremiTitulo{
+        font-size: 25px;
+        color: pink;
+    }
+
+    .miHistoria{
+        font-size: 20px;
+        color: pink;
+    }
+}
+
+/*  ----- CIERRA RESPONSIVE CELULAR SOBRE MI ----- */
+
+/*  ---- ANIMACIONES, TRANSFORMACIONES Y TRANSICIONES ----- */
+
+@keyframes aparecer {
+    0% {
+        opacity: 100%;
+    }
+    25% {
+        opacity: 75%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    75% {
+        opacity: 25%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes mover {
+    20% {
+        transform: translateX(-15px);
+    }
+    50% {
+        transform: translateX(40px);
+    }
+    70% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
